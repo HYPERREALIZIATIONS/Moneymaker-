@@ -1,0 +1,10 @@
+build/
+build-*/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+moneymaker
+third_party/*/build/
+.DS_Store
+*.log

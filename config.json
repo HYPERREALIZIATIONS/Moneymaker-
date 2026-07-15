@@ -1,0 +1,36 @@
+{
+  "algo": "randomx",
+  "pools": [
+    {
+      "url": "stratum+tcp://xmr.example.com:3333",
+      "user": "YOUR_WALLET_ADDRESS",
+      "pass": "x",
+      "tls": false,
+      "priority": 0
+    }
+  ],
+  "cpu": {
+    "enabled": true,
+    "threads": 0,
+    "priority": "normal",
+    "huge-pages": true,
+    "full-dataset": false
+  },
+  "cuda": {
+    "enabled": true,
+    "devices": [0]
+  },
+  "opencl": {
+    "enabled": true,
+    "platform": "amd",
+    "devices": [0]
+  },
+  "benchmark": {
+    "enabled": true,
+    "duration": 20
+  },
+  "log": {
+    "level": "info",
+    "file": ""
+  }
+}
